@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS AND INPUT TAGS</title>
+</head>
+<body>
+    <h2>LEARNING FORM AND INPUT TAGS</h2>
+    <hr>
+
+    <form action="backend.php"><!--this is the form tag(EG-backend.php is the backeend where the form data will be stored)-->
+                                              <!--name attribute is for the backend reference-->
+    <p>THERE ARE MANY INPUT TYPES LIKE date,datetime,text,,radio,number,etc</p>
+
+    <!-- <label for="enter id here"> text for input here</label> -->
+    <!--if we put this then we can access the input form by clicing the text-->
+    <label for="name">Enter your name</label>
+    <div><!--div(division tag) makes these input in different lines-->
+         <!--we can also use <br> tag but NOT RECOMENDED-->
+        <input type="text" name="userName" id="name">
+         <!--name attribute is for the backend reference-->
+    </div>
+
+    <br>
+
+    <div>
+        Enter your Role:<input type="text" name="userRole" id="">
+         <!--name attribute is for the backend reference-->
+    </div>
+
+    <br>
+    
+    <div>
+        Enter your E-mail:<input type="email" name="userEmail" id="">
+        <!--name attribute is for the backend reference-->
+    </div>
+
+    <br>
+
+    <div>
+        Enter DOB:<input type="date" name="userDate" id="">
+    </div>
+
+    <br>
+
+    <div>
+        Enter Bonus Amt:<input type="number" name="userBonus">
+    </div>
+
+    <br>
+
+    <div>
+        Are you eligible?:<input type="checkbox" name="userEligibility" checked><!--use checked if you want to keep tick the box by default-->
+    </div>
+
+    <br>
+
+    <div>
+        Gender: Male <input type="radio" name="userGender">Female <input type="radio" name="userGender">
+        Other <input type="radio" name="userGender">
+    </div>
+
+    <br>
+
+
+    <div>
+        Write about yourself:<br><textarea name="userText" cols="90" rows="10"></textarea>
+        <!--creates a text box of size(cols x rows)-->
+    </div>
+
+    <br>
+
+    <div>
+        <label for="car">Choose Car</label>
+        <select name=UserCar id="car"><!--user can select options using select tag-->
+            <option value="WagonR">WagonR</option><!--creatng options for select tag-->
+            <option value="Ind">Indica</option><!--creatng options for select tag-->
+            <option value="fort" selected>Fortuner</option><!--creatng options for select tag-->
+            <!--"selected attribute shows that option by default"-->
+        </select>
+    </div>
+
+    <br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div>
+        <input type="submit" value="Submit Now">
+        <!--this is used to submit the form-->
+        <input type="reset"><!--this resets all the data filled in the form -->
+    </div>
+    </form>
+
+
+
+
+
+
+</body>
+</html>
