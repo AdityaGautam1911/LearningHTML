@@ -1,0 +1,37 @@
+/* -->CSS(CASCADING STYLE SHEETS) gives style to raw HTML
+-->CSS is used to give style to our webpages
+-->CSS is used to make websites responsive
+-->html is used to structure a website whereas CSS takes the 
+   responsibility of design 
+*/
+
+
+
+/*
+CSS SYNTAX
+p{colour:blue;}
+(p(SELECTOR)--where to add the properties(colur,etc)
+colour--property which has to be modified
+blue--value)
+
+
+GROUP OF SELECTORS
+header,p.intro (gives header and p.intro the properties)
+
+
+DECLARATION BLOCK
+{
+background-colour:red;
+border-radius:3px;
+}
+
+
+3 ways to ad css to html
+1)INLINE CSS:css is added to the elements directly using stlye attribute
+2)INTERNAL CSS:css is kept inside the head tags in <stlye> tags
+3)EXTERNAL CSS:css is kept separately inside a .css style sheet
+*/
+
+p{color: deepskyblue;}
+
+

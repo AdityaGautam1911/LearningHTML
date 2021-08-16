@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearningSelectors</title>
+    <style>
+        /* element selector */
+        p {
+            border: 2px solid red;
+        }
+
+        /* (ID SELECTOR)the following convert the paragraph to blue whose id is blueThis */
+        #blueThis{
+            color: blue;
+        }
+
+        /*(CLASS SELECTOR) the following adds properties to a class */
+        .redThis{ 
+            color: red;
+        }
+
+        /* the following adds properties to a class */
+        .bgBlue{ 
+            background-color: blue;
+        }
+
+        /* (GROUP SELECTOR)this makes footer's and span's background pink */
+        footer,span{ 
+            background-color:pink;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Learning Selectors in CSS</h2>
+    <p>This is a simple paragraph to demonstrate css selectors</p>
+    <p id="blueThis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, incidunt!</p>
+    <p id="secondpara" class="redThis bgBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, cum.</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sunt dignissimos, impedit nesciunt accusamus
+            ad corrupti recusandae. Similique, ratione dicta.</p>
+        <span>THIS IS SPAN</span>
+    </div>
+    <footer>THIS IS A FOOTER</footer>
+
+
+</body>
+
+</html>

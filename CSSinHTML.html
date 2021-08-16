@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEARNING TO USE CSS IN HTML</title>
+
+    <!--the following adds the properties to whole code's p(paragraph) unless specified-->
+    <!--style block-->
+    <!--on putting IMPORTANT KEYWORD,it disallows to get changed/overridden -->
+    <style>
+        p{
+            color: darkmagenta;
+            background-color: chartreuse !important;
+            
+        }
+    </style>
+<!--the following links the external css file to html file-->
+<!--if you place this line above style block,then this will get precedence over it -->
+<link rel="stylesheet" href="basics.css">
+</head>
+<body>
+    <h2>THIS IS LEARNING CSS</h2>
+
+
+    <!-- the following is the example of inline css -->
+    <!--we should not use inline css as it makes our code messy as we have to style each line-->
+    <p style="color:red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, illum?</p>
+    <p style="color: red;background-color:yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, incidunt?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatum tempora vitae, alias debitis velit.</p>
+    
+</body>

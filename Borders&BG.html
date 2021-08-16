@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders&BG</title>
+    <style>
+        #firstPara{
+            background-color: darkgrey;
+            height:100px ; /*background ht.*/
+            width: 455px; /*background width*/
+            border-width: 4px;
+            border-color: rgb(144, 255, 33);
+            border-style: dotted;
+            border-radius: 15px;
+            /*in short--(border: 2px dotted green;)*/
+        }
+        #secondPara{
+            background-color: rgb(255, 45, 45);
+            height:100px ;
+            width: 455px;
+
+            /*DESIGNING SPECIFIC BORDERS*/
+            border-top: 10px solid violet;
+            border-right: 10px solid rgb(20, 177, 59);
+            border-bottom: 10px solid rgb(17, 154, 233);
+            border-left: 10px solid rgb(183, 0, 255);
+
+            /*DESIGNING SPECIFIC CORNERS*/
+            border-top-left-radius: 8px;
+            border-top-right-radius: 14px;
+            border-bottom-left-radius: 9px;
+            border-bottom-right-radius: 24px;
+        }
+        #thirdPara{
+            height:500px ;
+            width: 455px;
+            border-radius: 15px;
+            background-image:url(https://picsum.photos/id/237/500/500) ;/*to add BACKGROUND IMAGE*/
+            border:14px ridge rgb(255, 136, 0);
+            background-repeat:no-repeat ;/*repeat-x and repeat-y will make it repeat on x and y axis,no repeat will stop image repetetion*/
+
+            /* POSITIONING THE IMAGE */
+            /* background-position: 192px 34px; */
+            background-position: center center;
+            /* background-position: bottom right; */
+            /* background-position:top center ; */
+        }
+    </style>
+</head>
+-
+<body>
+    <h3>This is first heading</h3>
+    <p id="firstPara">This is a paragraph</p>
+
+    <h3>This is second heading</h3>
+    <p id="secondPara">This is my 2nd paragraph</p>
+
+    <h3>This is third heading</h3>
+    <p id="thirdPara">This is my 3rd paragraph</p>
+</body>
+</html>
